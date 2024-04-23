@@ -1,4 +1,4 @@
-https://github.com/Morrriarty/yandex-praktikum-zakrivayuschiy-teg-f
+https://github.com/Morrriarty/zakrivayuschiy-teg-f
 
 # Яндекс Практикум, проектная работа №4 "Закрывающий тег"
 
