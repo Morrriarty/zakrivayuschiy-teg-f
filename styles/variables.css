@@ -1,1 +1,29 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    /*main-variables*/
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P', fantasy;
+    --main-font-size: 18px;
+    --main-font-weight: 400;
+    --bold-font-weight: 700;
+    --bg-color: #FFFFFF;
+    --accent-color: #000;
+    --accent-color-transparent: rgb(0 0 0 / 60%);
+    --button-text-color: #FFF;
+    --favicon-color: #000;
+
+    /*gradient*/
+    --page-bg-image:
+      repeating-linear-gradient(to left,#d3d3d3 0 2px,#d3d3d300 2px 4px),
+      repeating-linear-gradient(to bottom,#d3d3d3 0 2px,#d3d3d300 2px 4px),
+      linear-gradient(to bottom,#e7e7e7 0.01%,#1a1a1a);
+
+    /*общие анимации*/
+    --transform-time: 0.3s;
+    --transition-function: ease;
+
+    /*heart*/
+    --sparks-fill-color: #f00;
+    --contour-color: rgb(0 0 0);
+    --main-body-color: rgb(0 0 0);
+}
+
