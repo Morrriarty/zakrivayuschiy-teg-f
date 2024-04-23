@@ -13,16 +13,14 @@
     <meta name="color-scheme" content="light dark">
     <link rel="shortcut icon" href="./images/favicon.ico" sizes="any" />
     <link rel="shortcut icon" href="./svg/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
     <header class="header content-section">
-      <h1 class="header__title">
-        <span class="header__title-accent" aria-hidden="true"
-          >&lt;/html&gt;</span
-        >
-        <br>Закрывающий тег
-      </h1>
+      <span class="header__title-accent" aria-hidden="true">&lt;/html&gt;</span>
+      <div class="header_title_menu-container"></div>
+      <h1 class="header__title">Закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <ul class="theme-menu__list">
           <li class="theme-menu__item">
@@ -31,12 +29,7 @@
             </button>
           </li>
           <li class="theme-menu__item">
-            <button
-              type="button"
-              data-theme="auto"
-              disabled
-              class="theme-menu__button"
-            >
+            <button type="button" data-theme="auto" disabled class="theme-menu__button">
               Авто
             </button>
           </li>
@@ -65,13 +58,14 @@
               <p class="card_text">Я будто снова попал в первый класс.</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
-                <svg width="39"
-                  height="36"
-                  viewBox="0 0 39 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="like-icon">
+              <button class="card__icon-button" aria-hidden="true">
+                <svg
+                    width="39"
+                    height="36"
+                    viewBox="0 0 39 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="like-icon">
                   <g class="heart">
                     <path
                       d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
@@ -96,7 +90,7 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
@@ -117,7 +111,7 @@
               <p class="card_text">Поначалу все казалось легким, особенно радовался когда правильно выполнял задачи в песочнице.</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-hidden="true">
                 <svg width="39"
                   height="36"
                   viewBox="0 0 39 36"
@@ -148,7 +142,7 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
@@ -169,7 +163,7 @@
               <p class="card_text">Первый проект снял с меня розовые очки. Я понял, что все нужно записывать, а все изученное рефлексировать. Иначе в реальной практике я просто утону.</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-hidden="true">
                 <svg width="39"
                   height="36"
                   viewBox="0 0 39 36"
@@ -200,7 +194,7 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
@@ -221,7 +215,7 @@
               <p class="card_text">Лично для меня это был самый интересный спринт из всех четырех. Когда кнопки впервые начали нажиматься и подсвечиваться в разных состояниях - это очень приятно, точнее приятно от того, что ты так уже умеешь.</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" >
                 <svg width="39"
                   height="36"
                   viewBox="0 0 39 36"
@@ -252,7 +246,7 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
@@ -273,7 +267,7 @@
               <p class="card_text">Второй спринт мне очень понравился. Проектная работа прошла на "ура".</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-hidden="true">
                 <svg width="39"
                   height="36"
                   viewBox="0 0 39 36"
@@ -304,7 +298,7 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
@@ -325,7 +319,7 @@
               <p class="card_text">Действительно, на этом этапе все казалось уже более серьезным, и было понимание того, что пути назад нет.</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-hidden="true">
                 <svg width="39"
                   height="36"
                   viewBox="0 0 39 36"
@@ -356,7 +350,7 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
@@ -377,7 +371,7 @@
               <p class="card_text">Период, когда открыл для себя навык "гуглить" на новом уровне.</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-hidden="true">
                 <svg width="39"
                   height="36"
                   viewBox="0 0 39 36"
@@ -408,7 +402,7 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
@@ -429,7 +423,7 @@
               <p class="card_text">Много чего было уже изучено и сделано. Немного страшно, что будет дальше, так как я слышал, что JS может сильно "одолевать".</p>
             </div>
             <div class="card_buttons">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-hidden="true">
                 <svg width="39"
                   height="36"
                   viewBox="0 0 39 36"
@@ -460,41 +454,38 @@
                   </g>      
               </svg>
               </button>
-              <button class="card__like-button standard_button">
+              <button class="card__like-button standard_button" type="button">
                 <span class="button_text">Like</span>
               </button>
             </div>
           </div>
         </article>
       </section>
-    </main>
-    <footer class="footer content-section">
-      <button
-        type="button"
-        onclick="window.modal.showModal();"
-        aria-controls="modal"
-        class="standard_button button_save"
-      >
-      <svg class="button_icon" viewBox="0 0 29 28">
-        <use href="svg/floppy.svg#floppy"/>
-      </svg>
-      <span class="button_text">Сохранить на память</span>
-    </button>
-  </main>
-  <dialog class="modal" id="modal">
-    <div class="modal_content">
-      <svg class="modal_icon" viewBox="0 0 29 28">
-        <use href="svg/floppy.svg#floppy" />
-      </svg>
-      <p>Вставьте дискету,чтобы продолжить</p>
-    </div>
-    <form method="dialog">
-      <button type="submit" class="standard_button modal_button">
-        <span class="button_text">ок</span>
+        <button
+          type="button"
+          onclick="window.modal.showModal();"
+          aria-controls="modal"
+          class="standard_button button_save"
+        >
+        <svg class="button_icon" viewBox="0 0 29 28">
+          <use href="svg/floppy.svg#floppy"/>
+        </svg>
+        <span class="button_text">Сохранить на память</span>
       </button>
-    </form>
-  </dialog>
-    </footer>
-    <script src="./scripts/like.js"></script>
+    <dialog class="modal" id="modal">
+      <div class="modal_content">
+        <svg class="modal_icon" viewBox="0 0 29 28">
+          <use href="svg/floppy.svg#floppy" />
+        </svg>
+        <p>Вставьте дискету,чтобы продолжить</p>
+      </div>
+      <form method="dialog">
+        <button type="submit" class="standard_button modal_button">
+          <span class="button_text">ок</span>
+        </button>
+      </form>
+    </dialog>
+      <script src="./scripts/like.js"></script>
+    </main>
   </body>
 </html>

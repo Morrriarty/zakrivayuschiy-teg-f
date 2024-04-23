@@ -1,5 +1,3 @@
-@import 'variables';
-
 /*кнопка Сердечко*/
 .like-icon .core {
   fill: var(--bg-color);
