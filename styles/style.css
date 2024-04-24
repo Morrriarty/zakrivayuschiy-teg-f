@@ -111,10 +111,10 @@
   position: absolute;
   display: block;
   background-color: var(--accent-color-transparent);
-  transition: transform var(--transform-time);
+  transition:
+    transform var(--transform-time),
+    color var(--transform-time);
   transition-timing-function: var(--transition-function);
-  transition: color var(--transform-time);
-  color: var(--transform-time);
   transform: scaleX(0);
   transform-origin: left;
   block-size: 3px;
