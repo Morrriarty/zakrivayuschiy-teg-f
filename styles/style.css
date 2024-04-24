@@ -299,13 +299,19 @@
   transform: scaleX(1);
 }
 
+.button-save-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button_save {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-wrap: nowrap;
   gap: 8px;
+  text-align: center;
   padding: 15px 20px;
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
