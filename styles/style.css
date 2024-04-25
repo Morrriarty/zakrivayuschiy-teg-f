@@ -41,16 +41,15 @@
 }
 
 /*секции*/
-.content-section {
-  margin: 0 auto;
-  max-inline-size: 700px;
-  background-color: var(--bg-color);
-}
-
 .section {
   display: flex;
   flex-direction: column;
-  gap: 54px;
+  gap: 54px
+}
+
+.content-section {
+  margin: 0 auto;
+  max-inline-size: 700px;
 }
 
 .header {
@@ -63,6 +62,7 @@
   text-transform: uppercase;
   font-size: 14px;
   margin: 0 auto 100px;
+  background-color: var(--bg-color);
 }
 
 .header__title {
@@ -165,6 +165,7 @@
   padding: 0 0 25px 0;
   border: 2px solid var(--accent-color);
   font-size: 18px;
+  background-color: var(--bg-color);
 }
 
 .card_title {
@@ -237,15 +238,18 @@
   display: flex;
   justify-content: flex-end;
   padding: 0 25px 0 0;
+  gap: 6px;
 }
 
 /*кнопка Сердечко*/
 .card__icon-button {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  padding: 0;
 }
 
 .card__icon-button:focus {
@@ -398,6 +402,12 @@
 }
 
 /*диалоговое окно*/
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
 .modal {
   border: 2px solid var(--accent-color);
   padding: 25px 30px;
@@ -448,6 +458,14 @@
 }
 
 @media (width < 376px) {
+  .header {
+    margin: 0 auto 107px;
+  }
+
+  .section {
+    gap: 50px
+  }
+
   .modal {
     padding: 28px 34px 28px 40px;
     max-inline-size: 341px;
@@ -462,5 +480,10 @@
   .button_icon {
     block-size: 28px;
     inline-size: 28px;
+  }
+
+  .card_img_label {
+    inset-inline-end: 12px;
+    inset-block-start: 23px;
   }
 }
