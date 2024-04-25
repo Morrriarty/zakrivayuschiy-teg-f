@@ -33,6 +33,7 @@
   font-family: var(--main-font);
   font-variation-settings: "wght" var(--main-font-weight);
   color: var(--accent-color);
+  line-height: 1.16667;
   background-image: var(--page-bg-image, none);
   background-size: cover;
   background-attachment: fixed;
@@ -232,6 +233,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 /*кнопки*/
 .card_buttons {
   position: relative;
@@ -250,6 +255,8 @@
   border: none;
   cursor: pointer;
   padding: 0;
+  transition: outline var(--transform-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .card__icon-button:focus {
@@ -259,8 +266,6 @@
 .card__icon-button:focus-visible {
   outline: 2px solid var(--accent-color);
   outline-offset: -2px;
-  transition: outline var(--transform-time);
-  transition-timing-function: var(--transition-function);
 }
 
 .like-icon {
